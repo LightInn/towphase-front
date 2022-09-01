@@ -18,7 +18,7 @@ const Dash: NextPage = () => {
 
                 <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
                     <a
-                        href="https://nextjs.org/docs"
+                        href="/api/auth/login"
                         className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
                     >
                         <h3 className="text-2xl font-bold">Connexion &rarr;</h3>

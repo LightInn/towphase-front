@@ -1,9 +1,13 @@
 import type {NextPage} from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import {useUser} from '@auth0/nextjs-auth0';
 
 const Profile: NextPage = () => {
+    const {user} = useUser();
+
     return (
+
         <div className="flex min-h-screen flex-col items-center justify-center py-2">
             <Head>
                 <title>Towphase</title>
@@ -14,11 +18,15 @@ const Profile: NextPage = () => {
                 <h1 className="text-6xl font-bold">
                     Profile
                 </h1>
+                <h2>
+                    {/*@ts-ignore*/}
+                    Welcome {user.name}!
+                </h2>
 
 
                 <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
                     <a
-                        href="https://nextjs.org/docs"
+                        href="/api/auth/logout"
                         className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
                     >
                         <h3 className="text-2xl font-bold">Deconnexion &rarr;</h3>
