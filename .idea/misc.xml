@@ -7,44 +7,36 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="305" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/_app.tsx" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="3118" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/default.tsx" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="1000" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/dash.tsx" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="217" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/.env.exemple" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="79" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/api/auth/[...auth0].js" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="218" />
+          <option name="caretOffset" value="2227" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/pages/profile.tsx" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="1919" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/lib/apolloClient.js" />
+          <option name="caretOffset" value="141" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/index.tsx" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="6357" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/lib/withApollo.js" />
+          <option name="caretOffset" value="319" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/_app.tsx" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="64" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/.env.local" />
+          <option name="caretOffset" value="401" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/lib/apollo-client.js" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="439" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/lib/auth0.js" />
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/default.tsx" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="75" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/lib/ClientOnly.js" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="566" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/api/auth/token.js" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="649" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/api/auth/[...auth0].js" />
         </OpenedFileInfo>
       </list>
     </option>
