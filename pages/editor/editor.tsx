@@ -3,36 +3,34 @@ import Head from 'next/head'
 import Image from 'next/image'
 import {useUser} from '@auth0/nextjs-auth0';
 import {useQuery, gql} from "@apollo/client";
-import ClientOnly from '../lib/ClientOnly';
+import ClientOnly from '../../lib/ClientOnly';
 
 
-const Profile: NextPage = () => {
+const Editor: NextPage = () => {
 
 
     const {user} = useUser();
-//
-//
+
+
     const GET_MY_TODOS = gql`
-      query MyQuery {
-  user {
-    name
+mutation addCard($name: String) {
+  insert_card(objects: {name: $name}) {
+    returning {
+      id
+      name
+    }
   }
 }
+
       `;
 
 
-    const {loading, error, data} = useQuery(GET_MY_TODOS);
+    const {loading, error, data} = useQuery(GET_MY_TODOS, {
 
+        variables: { name : "breed" },
 
-//     const QUERY = gql`
-//   query Countries {
-//     countries {
-//       code
-//       name
-//       emoji
-//     }
-//   }
-// `;
+    });
+
 
 
     // const {data, loading, error} = useQuery(QUERY);
@@ -65,7 +63,7 @@ const Profile: NextPage = () => {
 
                 <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
                     <h1 className="text-6xl font-bold">
-                        Profile
+                        Editor
                     </h1>
                     <h2>
                         {/*@ts-ignore*/}
@@ -137,4 +135,4 @@ const Profile: NextPage = () => {
 
 }
 
-export default Profile
+export default Editor

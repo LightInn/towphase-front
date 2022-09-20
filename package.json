@@ -10,11 +10,13 @@
     "@apollo/react-hooks": "^4.0.0",
     "@apollo/react-ssr": "^4.0.0",
     "@auth0/nextjs-auth0": "^1.9.1",
+    "@headlessui/react": "^1.7.2",
     "graphql": "^16.6.0",
     "isomorphic-unfetch": "^3.1.0",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
     "subscriptions-transport-ws": "^0.11.0"
   },
   "devDependencies": {

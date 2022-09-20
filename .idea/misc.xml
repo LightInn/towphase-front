@@ -7,36 +7,40 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="2227" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/profile.tsx" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="141" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/index.tsx" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="319" />
+          <option name="caretOffset" value="215" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/pages/_app.tsx" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="401" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/lib/apollo-client.js" />
+          <option name="caretOffset" value="276" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/lib/ClientOnly.js" />
         </OpenedFileInfo>
         <OpenedFileInfo>
           <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/default.tsx" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="75" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/lib/ClientOnly.js" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/README.md" />
         </OpenedFileInfo>
         <OpenedFileInfo>
           <option name="caretOffset" value="566" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/pages/api/auth/token.js" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="649" />
+          <option name="caretOffset" value="894" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/pages/api/auth/[...auth0].js" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="575" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/editor/editor.tsx" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="409" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/components/SideNavbar.tsx" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/index.tsx" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/dash.tsx" />
         </OpenedFileInfo>
       </list>
     </option>

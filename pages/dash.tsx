@@ -1,6 +1,7 @@
 import type {NextPage} from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import SideNavbar from "../components/SideNavbar";
 
 const Dash: NextPage = () => {
     return (
@@ -10,7 +11,14 @@ const Dash: NextPage = () => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
+
             <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
+                <SideNavbar/>
+
+
+
+
+
                 <h1 className="text-6xl font-bold">
                     Dashboard
                 </h1>
