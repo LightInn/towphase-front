@@ -7,20 +7,16 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="215" />
+          <option name="caretOffset" value="253" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/pages/_app.tsx" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="276" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/lib/ClientOnly.js" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/README.md" />
         </OpenedFileInfo>
         <OpenedFileInfo>
           <option name="caretOffset" value="566" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/pages/api/auth/token.js" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/README.md" />
         </OpenedFileInfo>
         <OpenedFileInfo>
           <option name="caretOffset" value="894" />
@@ -36,11 +32,19 @@
         </OpenedFileInfo>
         <OpenedFileInfo>
           <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/app/profile.tsx" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="787" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/components/Layout.tsx" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="34" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/pages/index.tsx" />
         </OpenedFileInfo>
         <OpenedFileInfo>
           <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/dash.tsx" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/pages/default.tsx" />
         </OpenedFileInfo>
       </list>
     </option>
